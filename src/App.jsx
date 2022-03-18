@@ -18,9 +18,9 @@ const App = () => {
         setTime(newTime)
     }
 
-    const [headingText, setHeadingText] = useState("KE ONDA")
+    const [headingText, setHeadingText] = useState("HI")
     const handleClick = () => {
-        setHeadingText("CHAU")
+        setHeadingText("BYE")
     }
 
     const [name, setName] = useState("");
